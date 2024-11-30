@@ -1,0 +1,63 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Simple_Blue_1" language="java" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="00131c04-4a61-4684-b92f-ed08e46ffd67">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<property name="net.sf.jasperreports.data.adapter" value="C:\Users\79627\Documents\OOP\lab_06\data\input.xml"/>
+	<query language="XPath"><![CDATA[/school/students/student]]></query>
+	<field name="class" class="java.lang.String">
+		<description><![CDATA[@class]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="@class"/>
+	</field>
+	<field name="name" class="java.lang.String">
+		<description><![CDATA[@name]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="@name"/>
+	</field>
+	<field name="performance" class="java.lang.String">
+		<description><![CDATA[@performance]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="@performance"/>
+	</field>
+	<background/>
+	<title height="72">
+		<element kind="frame" uuid="71f57ddc-03df-4e42-a38a-d6fca8421363" mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699">
+			<element kind="staticText" uuid="8a6484cc-8f0e-4386-b182-2465f1adec66" x="20" y="0" width="450" height="92" forecolor="#FFFFFF" fontName="DEJAVU" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<text><![CDATA[Отчет об успеваемости в школе]]></text>
+			</element>
+		</element>
+	</title>
+	<pageHeader height="13"/>
+	<columnHeader height="65">
+		<element kind="line" uuid="3c863b1a-af81-4962-9a6e-9527291998cd" x="-20" y="20" width="595" height="1" forecolor="#666666"/>
+		<element kind="staticText" uuid="76a02489-00d8-455e-b4c9-2f92df88d3a7" x="0" y="30" width="230" height="30" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+			<text><![CDATA[ФИО]]></text>
+		</element>
+		<element kind="staticText" uuid="19c90969-e0cf-414a-b68f-fa6e921b8347" x="240" y="30" width="80" height="30" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+			<text><![CDATA[Класс]]></text>
+		</element>
+		<element kind="staticText" uuid="94d6ebc2-53b8-4808-b600-01b5331b748d" x="380" y="30" width="175" height="30" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+			<text><![CDATA[Успеваемость]]></text>
+		</element>
+		<element kind="textField" uuid="aec18a26-2490-4e1d-977e-54be5abbd267" x="450" y="-10" width="110" height="30" hTextAlign="Center">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="40">
+			<element kind="line" uuid="80076f40-2448-4b60-b87d-e34d41d2c816" positionType="FixRelativeToBottom" x="0" y="10" width="555" height="1"/>
+			<element kind="textField" uuid="e813eccf-7250-417f-acba-dd483896ed74" x="0" y="20" width="230" height="20" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+				<expression><![CDATA[$F{name}]]></expression>
+			</element>
+			<element kind="textField" uuid="1c53e9eb-942c-42a9-90de-978e26cab228" x="240" y="22" width="80" height="18" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+				<expression><![CDATA[$F{class}]]></expression>
+			</element>
+			<element kind="textField" uuid="98e3ecad-e96a-45df-9bab-467946602e4b" x="380" y="22" width="175" height="18" fontName="DEJAVU" fontSize="13.0" hTextAlign="Center">
+				<expression><![CDATA[$F{performance}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter/>
+	<pageFooter height="21">
+		<element kind="textField" uuid="04b83690-6194-401f-bfb6-a64ccd317a2c" x="274" y="0" width="12" height="20" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$V{PAGE_NUMBER}]]></expression>
+		</element>
+	</pageFooter>
+	<summary/>
+</jasperReport>

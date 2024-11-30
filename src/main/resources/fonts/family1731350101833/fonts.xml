@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+	<fontFamily name="DEJAVU">
+		<normal>
+			<ttf><![CDATA[fonts/family1731350101833/DEJAVU/DejaVuSans.ttf]]></ttf>
+			<pdf><![CDATA[fonts/family1731350101833/DEJAVU/DejaVuSans.ttf]]></pdf>
+		</normal>
+		<pdfEncoding><![CDATA[Cp1251]]></pdfEncoding>
+		<pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+		<exportFonts/>
+	</fontFamily>
+</fontFamilies>

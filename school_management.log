@@ -1,0 +1,44 @@
+	2024-11-30 22:08:57,478 [AWT-EventQueue-0] INFO  org.example.Main - Запуск программы - Система Управления Школой
+2024-11-30 22:08:57,749 [AWT-EventQueue-0] INFO  org.example.Main - Главное окно отображено
+2024-11-30 22:08:59,075 [LoadDataThread] INFO  org.example.Main - LoadDataThread: Начало загрузки данных.
+2024-11-30 22:09:03,377 [LoadDataThread] INFO  org.example.Main - Загрузка данных из файла: C:\Users\79627\Documents\OOP\lab_10\input
+2024-11-30 22:09:03,419 [LoadDataThread] INFO  org.example.Main - LoadDataThread: Завершена загрузка данных.
+2024-11-30 22:09:04,343 [AWT-EventQueue-0] INFO  org.example.Main - Данные успешно загружены
+2024-11-30 22:09:07,440 [AWT-EventQueue-0] WARN  org.example.Main - Попытка удаления учителей без выбора
+2024-11-30 22:09:12,830 [AWT-EventQueue-0] INFO  org.example.Main - Удалён учитель: Сидоров Петр Петрович
+2024-11-30 22:09:12,831 [AWT-EventQueue-0] INFO  org.example.Main - Удалён учитель: Петрова Анна Сергеевна
+2024-11-30 22:09:12,831 [AWT-EventQueue-0] INFO  org.example.Main - Удалён учитель: Иванов Иван Иванович
+2024-11-30 22:09:17,255 [AWT-EventQueue-0] WARN  org.example.Main - Попытка удаления учеников без выбора
+2024-11-30 22:09:20,015 [AWT-EventQueue-0] INFO  org.example.Main - Удалён ученик: Луначарова Виктория Юрьевна
+2024-11-30 22:09:20,015 [AWT-EventQueue-0] INFO  org.example.Main - Удалён ученик: Тихонов Михаил Павлович
+2024-11-30 22:09:20,015 [AWT-EventQueue-0] INFO  org.example.Main - Удалён ученик: Денисов Алексей Викторович
+2024-11-30 22:09:20,015 [AWT-EventQueue-0] INFO  org.example.Main - Удалён ученик: Фролова Анна Сергеевна
+2024-11-30 22:09:26,104 [AWT-EventQueue-0] WARN  org.example.Main - Ошибка при добавлении учителя: Все поля должны быть заполнены!
+2024-11-30 22:09:52,288 [AWT-EventQueue-0] INFO  org.example.Main - Добавлен ученик: Иван Иванович Иванов
+2024-11-30 22:09:53,666 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Ожидание завершения загрузки данных.
+2024-11-30 22:09:53,666 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Начало сохранения данных.
+2024-11-30 22:09:57,897 [SaveDataThread] INFO  org.example.Main - Сохранение данных в файл: C:\Users\79627\Documents\OOP\lab_10\output
+2024-11-30 22:09:57,945 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Завершено сохранение данных.
+2024-11-30 22:09:58,824 [AWT-EventQueue-0] INFO  org.example.Main - Данные успешно сохранены
+2024-11-30 22:09:59,785 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Ожидание завершения сохранения данных.
+2024-11-30 22:09:59,785 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Начало генерации отчёта.
+2024-11-30 22:09:59,785 [GenerateReportThread] INFO  org.example.Main - Начало генерации отчёта
+2024-11-30 22:10:11,096 [GenerateReportThread] INFO  org.example.Main - Отчёт успешно создан: C:\Users\79627\Documents\OOP\lab_10\отчет.pdf
+2024-11-30 22:10:11,164 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Завершена генерация отчёта.
+2024-11-30 22:11:03,888 [AWT-EventQueue-0] INFO  org.example.Main - Запуск программы - Система Управления Школой
+2024-11-30 22:11:04,015 [AWT-EventQueue-0] INFO  org.example.Main - Главное окно отображено
+2024-11-30 22:11:05,755 [LoadDataThread] INFO  org.example.Main - LoadDataThread: Начало загрузки данных.
+2024-11-30 22:11:14,219 [LoadDataThread] INFO  org.example.Main - Загрузка данных из файла: C:\Users\79627\Documents\OOP\lab_10\output
+2024-11-30 22:11:14,238 [LoadDataThread] INFO  org.example.Main - LoadDataThread: Завершена загрузка данных.
+2024-11-30 22:11:15,192 [AWT-EventQueue-0] INFO  org.example.Main - Данные успешно загружены
+2024-11-30 22:11:16,112 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Ожидание завершения загрузки данных.
+2024-11-30 22:11:16,112 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Начало сохранения данных.
+2024-11-30 22:11:21,512 [SaveDataThread] INFO  org.example.Main - Сохранение данных в файл: C:\Users\79627\Documents\OOP\lab_10\output
+2024-11-30 22:11:21,547 [SaveDataThread] INFO  org.example.Main - SaveDataThread: Завершено сохранение данных.
+2024-11-30 22:11:22,321 [AWT-EventQueue-0] INFO  org.example.Main - Данные успешно сохранены
+2024-11-30 22:11:22,960 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Ожидание завершения сохранения данных.
+2024-11-30 22:11:22,960 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Начало генерации отчёта.
+2024-11-30 22:11:22,960 [GenerateReportThread] INFO  org.example.Main - Начало генерации отчёта
+2024-11-30 22:11:23,904 [GenerateReportThread] DEBUG org.example.Main - XML-файл для отчёта успешно создан: C:\Users\79627\AppData\Local\Temp\student_data_7537740559534036599.xml
+2024-11-30 22:11:30,949 [GenerateReportThread] INFO  org.example.Main - Отчёт успешно создан: C:\Users\79627\Documents\OOP\lab_10\отчет.pdf
+2024-11-30 22:11:31,013 [GenerateReportThread] INFO  org.example.Main - GenerateReportThread: Завершена генерация отчёта.
